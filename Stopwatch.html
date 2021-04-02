@@ -138,7 +138,7 @@
             timestamp.setAttribute ("class", "lap-time");
 
             number.innerHTML = `${++lapitem} .`;
-            timestamp.innerHtml= `${displaymin} : ${displaysec} : ${displaymsec}`;
+            timestamp.innerHTML= `${displaymin} : ${displaysec} : ${displaymsec}`;
             li.append(number, timestamp);
             laps.append(li);
         } 
